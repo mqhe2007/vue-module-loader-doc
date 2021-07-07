@@ -1,0 +1,23 @@
+{
+  "name": "vue-module-loader-doc",
+  "version": "1.0.0",
+  "description": "vue module loader doc",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mqhe2007/vue-module-loader-doc.git"
+  },
+  "author": "青衿 122274389@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mqhe2007/vue-module-loader-doc/issues"
+  },
+  "homepage": "https://github.com/mqhe2007/vue-module-loader-doc#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
