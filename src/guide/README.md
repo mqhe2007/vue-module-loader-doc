@@ -12,9 +12,9 @@ vue-module-loader 是专注于 Vue 生态的微前端模块加载器，vue-modul
 
 ## 快速上手
 
-### 模板工程（墙裂推荐）
+### 即用模板
 
-推荐使用`vue-module-creator`创建模板工程。
+强烈推荐使用 [vue-module-creator](https://github.com/mqhe2007/vue-module-creator) 创建模板工程。
 
 模板项目是非典型 [vite](https://cn.vitejs.dev/) 工程，并主要使用 vite 的以下特性：
 
