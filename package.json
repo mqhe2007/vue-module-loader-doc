@@ -4,7 +4,7 @@
   "description": "vue module loader doc",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev src",
+    "dev": "vitepress dev src",
     "build": "vuepress build src"
   },
   "repository": {
@@ -18,6 +18,17 @@
   },
   "homepage": "https://github.com/mqhe2007/vue-module-loader-doc#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@types/react",
+        "react",
+        "react-dom",
+        "@algolia/client-search"
+      ]
+    }
   }
 }
