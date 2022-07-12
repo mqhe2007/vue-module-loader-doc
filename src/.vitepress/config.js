@@ -1,6 +1,8 @@
 export default {
+  base: "/vue-module-loader-doc/",
   title: "VueModuleLoader",
   description: "专注 Vue 生态的微前端模块加载器",
+  lastUpdated: true,
   themeConfig: {
     logo: "/VML.svg",
     siteTitle: false,
